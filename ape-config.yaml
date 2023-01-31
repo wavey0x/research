@@ -1,0 +1,15 @@
+name: research
+
+plugins:
+  - name: solidity
+  - name: geth
+  - name: foundry
+
+default_ecosystem: ethereum
+
+ethereum:
+  local:
+    default_provider: foundry
+
+foundry:
+  port: 8555
